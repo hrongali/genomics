@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {
+      "typeName": "model_process",
+      "attributes": {
+        "qualifiedName": "model_process.92derwt3455-43ar58",
+        "name": "disease-risk-HAIL-v2.8",
+        "inputs": [{"guid": "798ad96e-7c48-4be3-85b5-5c06b1fac943", "typeName": "hdfs_path_genseq_processed"}, {"guid": "d727b94d-9812-4603-930e-be39e5d6e5ff", "typeName": "hdfs_path"}],
+        "outputs": [{"guid": "7f6562bb-f3de-4b21-8ce6-5adb3239ebbe", "typeName": "hdfs_path_genseq_processed"}],
+        "model_owner": "Srinivas Kumar",
+        "model_registry_path": "hdfs://xxxx.com/lake/genome/model-registry/disease-risk-HAIL-v1.2",
+        "model_assets": "jupyter-disease-risk-HAIL-v1.2.json, Hail-0.1-74bf1ebb3edc-Spark-2.0.2, spark-2.0.2-bin-hadoop2.7.tgz",
+        "model_version": "2.8",
+        "model_type": "HAIL"
+      }
+    }
+  ]
+}
