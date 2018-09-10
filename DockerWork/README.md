@@ -1,5 +1,11 @@
+## Goal
 
-# Below are the instructions for building the docker image with custom version of spark and Hail package:
+The Goal of this excercise is to run a differennt version of Spark(Spark 2.1.0) with all the required dependencies(Hail 0.1 and Anaconda in this use case) in a Docker container in HDP 3.0 where the default version of spark is Spark 2.3.0
+
+https://hail.is/docs/stable/getting_started.html
+
+
+## Below are the instructions for building the docker image with custom version of spark and Hail package:
 
 ## Prerequisites for building the docker image:
 
