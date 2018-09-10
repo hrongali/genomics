@@ -11,7 +11,7 @@ curl -u xxxx:xxxx -ik -H "Content-Type: application/json" -X POST http://xxxx:21
 curl -u xxxx:xxxx -ik -H "Content-Type: application/json" -X POST http://xxxx:21000/api/atlas/v2/entity/bulk -d "@./1.3-entity.json"
 
 # entity via json string (the way NiFi will use it)
-curl -u xxxx:xxxx -ik -H "Content-Type: application/json" -X POST http://xxxx:21000/api/atlas/v2/entity/bulk -d '{"entities": [{"typeName": "ztest_hdfs_path_genseq_raw", "attributes": {"qualifiedName": "ztest_hdfs_path_genseq_raw.${sampleID}", "name": "sampleID_${sampleID}", "createdBy": "NiFi", "path":"hdfs://lake/genome/raw/sampleID_${sampleID}", "technician": "${technician}", "instrumentType": "Illumina", "instrumentModel": "${instrumentType}", "instrumentId": "${instrumentId}", "reads": "${reads}", "sampleID": "BF-${sampleID}", "startTimeStamp": "${startTimeStamp}", "endTimeStamp": "${endTimeStamp}"}}]}'
+curl -u xxxx:xxxx -ik -H "Content-Type: application/json" -X POST http://xxxx:21000/api/atlas/v2/entity/bulk -d '{"entities": [{"typeName": "ztest_hdfs_path_genseq_raw", "attributes": {"qualifiedName": "hdfs_path_genseq_raw.${sampleID}", "name": "sampleID_${sampleID}", "createdBy": "NiFi", "path":"hdfs://lake/genome/raw/sampleID_${sampleID}", "technician": "${technician}", "instrumentType": "Illumina", "instrumentModel": "${instrumentType}", "instrumentId": "${instrumentId}", "reads": "${reads}", "sampleID": "BF-${sampleID}", "startTimeStamp": "${startTimeStamp}", "endTimeStamp": "${endTimeStamp}"}}]}'
 
 # ---------------DELETE ---------------
 # delete type
