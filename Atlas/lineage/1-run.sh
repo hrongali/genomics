@@ -1,6 +1,6 @@
 # --------------- PUT --------------
 # type via file
-curl -u admin:admin-password1 -ik -H "Content-Type: application/json" -X POST http://18.215.222.208:21000/api/atlas/v2/types/typedefs -d "@./2-type.json"
+curl -u admin:admin-password1 -ik -H "Content-Type: application/json" -X POST http://18.215.222.208:21000/api/atlas/v2/types/typedefs -d "@./2-model_type.json"
 
 # entity via file
 curl -u admin:admin-password1 -ik -H "Content-Type: application/json" -X POST http://18.215.222.208:21000/api/atlas/v2/entity/bulk -d "@./3-bwa-entity.json"
