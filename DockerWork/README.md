@@ -1,6 +1,21 @@
 
 # Below are the instructions for building the docker image:
 
+## Prerequisites for building the docker image:
+
+```
+mkdir /root/hail
+cd /root/hail
+wget https://repo.continuum.io/archive/Anaconda2-5.1.0-Linux-x86_64.sh .
+wget https://archive.apache.org/dist/spark/spark-2.1.0/spark-2.1.0-bin-hadoop2.7.tgz .
+wget https://storage.googleapis.com/hail-common/distributions/0.1/Hail-0.1-20613ed50c74-Spark-2.1.0.zip .
+git clone --branch 0.1 https://github.com/broadinstitute/hail.git
+cd hail
+./gradlew -Dspark.version=2.1.0 shadowJar
+cd /root/hail/
+zip -r hail.zip hail/
+```
+
 ## Building the Docker image:
 
 * Copy the Dockerfile and environment.yml file to a directory where you will be building your image.
