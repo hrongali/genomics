@@ -1,5 +1,5 @@
 
-# Below are the instructions for building the docker image:
+# Below are the instructions for building the docker image with custom version of spark and Hail package:
 
 ## Prerequisites for building the docker image:
 
