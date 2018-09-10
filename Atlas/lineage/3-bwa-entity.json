@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {
+      "typeName": "model_process",
+      "attributes": {
+        "qualifiedName": "model_process.923455-4358",
+        "name": "alignment-generic-BWA-v1.2",
+        "inputs": [{"guid": "351568c5-8c2b-4587-9ae8-f8b060adb56c", "typeName": "hdfs_path_genseq_raw"}],
+        "outputs": [{"guid": "c59d6898-b23c-46d1-8a7d-a1278c5ba08b", "typeName": "hdfs_path_genseq_processed"}],
+        "model_owner": "Srinivas Kumar",
+        "model_registry_path": "hdfs://xxxx.com/lake/genome/model-registry/alignment-BWA-v1.2",
+        "model_assets": "jupyter notebook alignment-generic-BWA-v1.2.json, bwa-0.7.17.tar.bz2, spark-2.1.0-bin-hadoop2.7.tgz",
+        "model_version": "1.2",
+        "model_type": "BWA"
+      }
+    }
+  ]
+}
