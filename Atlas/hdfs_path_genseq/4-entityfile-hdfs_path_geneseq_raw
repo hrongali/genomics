@@ -1,0 +1,21 @@
+{
+  "entities": [
+    {
+      "typeName": "hdfs_path_genseq_raw",
+      "attributes": {
+        "qualifiedName": "hdfs_path_genseq_raw.sampleID_BF-23944",
+        "name": "sampleID_BF-23944",
+        "createdBy": "NiFi",
+        "path":"hdfs://xxxxxxxx.com/lake/genome/raw/sampleID_BF-23944",
+        "technician": "James Smith",
+        "instrumentType": "Illumina",
+        "instrumentModel": "NextSeq 550Dx",
+        "instrumentId": "NS-3042345",
+        "reads": "9",
+        "sampleID": "sampleID_BF-23944",
+        "startTimeStamp": "2018-09-03:14:46:39",
+        "endTimeStamp": "2018-09-03:21:58:02"
+      }
+    }
+  ]
+}
