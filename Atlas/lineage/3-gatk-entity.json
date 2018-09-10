@@ -1,0 +1,19 @@
+{
+  "entities": [
+    {
+      "typeName": "model_process",
+      "attributes": {
+        "qualifiedName": "model_process.94355-4asdsdf58",
+        "name": "variants-generic-GATK-v1.2",
+        "inputs": [{"guid": "c59d6898-b23c-46d1-8a7d-a1278c5ba08b", "typeName": "hdfs_path_genseq_processed"}],
+        "outputs": [{"guid": "798ad96e-7c48-4be3-85b5-5c06b1fac943", "typeName": "hdfs_path_genseq_processed"}],
+        "model_owner": "Mary Carter",
+        "model_registry_path": "hdfs://xxxx.com/lake/genome/model-registry/variants-GATK-v1.1",
+        "model_assets": "jupyter-variants-generic-GATK-v1.2.json, gatk-1.5.23.tar.bz2, spark-2.0.0-bin-hadoop2.7.tgz",
+        "model_version": "1.1",
+        "model_type": "GATK",
+        "model_assets_hash":	"8743b52063cd84097a65d1633f5c74f5"
+      }
+    }
+  ]
+}
