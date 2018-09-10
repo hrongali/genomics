@@ -1,0 +1,126 @@
+{
+  "enumDefs": [],
+  "structDefs": [],
+  "classificationDefs": [],
+  "entityDefs": [
+     {
+      "superTypes": ["hdfs_path"],
+      "name": "hdfs_path_genseq_raw",
+      "typeVersion": "1.0",
+      "attributeDefs": [
+         {
+         "name": "qualifiedName",
+         "typeName": "string",
+         "cardinality": "SINGLE",
+         "isUnique": false,
+         "isOptional": false,
+         "isIndexable": true
+         },
+         {
+         "name": "name",
+         "typeName": "string",
+         "cardinality": "SINGLE",
+         "isUnique": false,
+         "isOptional": false,
+         "isIndexable": true
+         },
+         {
+         "name": "createdBy",
+         "typeName": "string",
+         "cardinality": "SINGLE",
+         "isUnique": false,
+         "isOptional": false,
+         "isIndexable": true
+         },
+         {
+         "name": "path",
+         "typeName": "string",
+         "cardinality": "SINGLE",
+         "isUnique": false,
+         "isOptional": false,
+         "isIndexable": true
+         },
+         {
+         "name": "hash",
+         "typeName": "string",
+         "cardinality": "SINGLE",
+         "isUnique": false,
+         "isOptional": false,
+         "isIndexable": false
+         },
+         {
+         "name": "zone",
+         "typeName": "string",
+         "cardinality": "SINGLE",
+         "isUnique": false,
+         "isOptional": false,
+         "isIndexable": false
+         },
+         {
+         "name": "technician",
+         "typeName": "string",
+         "cardinality": "SINGLE",
+         "isUnique": false,
+         "isOptional": false,
+         "isIndexable": true
+         },
+         {
+         "name": "instrumentType",
+         "typeName": "string",
+         "cardinality": "SINGLE",
+         "isUnique": false,
+         "isOptional": false,
+         "isIndexable": true
+         },
+         {
+         "name": "instrumentModel",
+         "typeName": "string",
+         "cardinality": "SINGLE",
+         "isUnique": false,
+         "isOptional": false,
+         "isIndexable": true
+         },
+         {
+         "name": "instrumentId",
+         "typeName": "string",
+         "cardinality": "SINGLE",
+         "isUnique": false,
+         "isOptional": false,
+         "isIndexable": true
+         },
+         {
+         "name": "reads",
+         "typeName": "int",
+         "cardinality": "SINGLE",
+         "isUnique": false,
+         "isOptional": false,
+         "isIndexable": true
+         },
+         {
+         "name": "sampleID",
+         "typeName": "string",
+         "cardinality": "SINGLE",
+         "isUnique": true,
+         "isOptional": false,
+         "isIndexable": true
+         },
+         {
+         "name": "startTimeStamp",
+         "typeName": "string",
+         "cardinality": "SINGLE",
+         "isUnique": false,
+         "isOptional": false,
+         "isIndexable": true
+         },
+         {
+         "name": "endTimeStamp",
+         "typeName": "string",
+         "cardinality": "SINGLE",
+         "isUnique": false,
+         "isOptional": false,
+         "isIndexable": true
+         }
+      ]
+      }
+   ]
+}
