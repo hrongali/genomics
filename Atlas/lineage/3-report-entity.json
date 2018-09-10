@@ -1,0 +1,19 @@
+{
+  "entities": [
+    {
+      "typeName": "model_process",
+      "attributes": {
+        "qualifiedName": "model_process.923455-43asdfx58",
+        "name": "report-generator-disease_risk-v2.6.1",
+        "inputs": [{"guid": "7f6562bb-f3de-4b21-8ce6-5adb3239ebbe", "typeName": "hdfs_path_genseq_processed"}],
+        "outputs": [{"guid": "012fff72-8e71-4d99-8cd5-4d2f9a4198bd", "typeName": "hdfs_path_genseq_processed"}],
+        "model_owner": "Uri Petrov",
+        "model_registry_path": "hdfs://xxxx.com/lake/genome/model-registry/report-generator-disease_risk-v2.6.1",
+        "model_assets": "jupyter-report_generator-disease-risk-v1.2.json, spark-2.3.0-bin-hadoop2.7.tgz",
+        "model_version": "1.2",
+        "model_type": "REPORT_GENERATOR_disease_report",
+        "model_assets_hash":	"8743b52063cd84097a65d1633f5c74f5"
+      }
+    }
+  ]
+}
